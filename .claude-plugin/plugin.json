@@ -34,11 +34,7 @@
     "environment": {
       "type": "string",
       "title": "Payments environment",
-      "description": "development: no money moves and test transfers can be simulated. production: real payments.",
-      "options": [
-        "development",
-        "production"
-      ],
+      "description": "development (no money moves, test transfers can be simulated) or production (real payments).",
       "default": "development"
     }
   }
