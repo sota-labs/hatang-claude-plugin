@@ -1,0 +1,9 @@
+{
+  "name": "hatang",
+  "description": "Build with Ha Tang (hatang.dev): transactional email, support chat SDKs, VietQR payments and e-invoices. A skill with the integration rules and the @hatang/mcp server for the docs and API.",
+  "version": "0.1.0",
+  "author": { "name": "Sota Labs", "email": "hello@hatang.dev", "url": "https://hatang.dev" },
+  "homepage": "https://hatang.dev/docs/guides/getting-started/ai-agents",
+  "license": "MIT",
+  "keywords": ["hatang", "email", "vietqr", "payments", "live chat", "customer support", "vietnam", "mcp"]
+}

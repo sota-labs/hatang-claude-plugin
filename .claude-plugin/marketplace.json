@@ -1,0 +1,15 @@
+{
+  "name": "hatang",
+  "description": "Ha Tang (hatang.dev) plugins for Claude Code.",
+  "owner": {
+    "name": "Sota Labs",
+    "email": "hello@hatang.dev"
+  },
+  "plugins": [
+    {
+      "name": "hatang",
+      "source": "./",
+      "description": "Build with Ha Tang (hatang.dev): email, support chat, VietQR payments. Skill plus the @hatang/mcp server."
+    }
+  ]
+}
