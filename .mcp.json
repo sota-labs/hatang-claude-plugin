@@ -2,8 +2,14 @@
   "mcpServers": {
     "hatang": {
       "command": "npx",
-      "args": ["-y", "@hatang/mcp"],
-      "env": { "HATANG_API_KEY": "${HATANG_API_KEY:-}", "HATANG_ENVIRONMENT": "${HATANG_ENVIRONMENT:-development}" }
+      "args": [
+        "-y",
+        "@hatang/mcp@0.1.1"
+      ],
+      "env": {
+        "HATANG_API_KEY": "${user_config.api_key}",
+        "HATANG_ENVIRONMENT": "${user_config.environment}"
+      }
     }
   }
 }

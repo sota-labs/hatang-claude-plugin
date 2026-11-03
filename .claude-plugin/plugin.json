@@ -1,9 +1,45 @@
 {
   "name": "hatang",
   "description": "Build with Ha Tang (hatang.dev): transactional email, support chat SDKs, VietQR payments and e-invoices. A skill with the integration rules and the @hatang/mcp server for the docs and API.",
-  "version": "0.1.0",
-  "author": { "name": "Sota Labs", "email": "hello@hatang.dev", "url": "https://hatang.dev" },
+  "version": "0.1.1",
+  "author": {
+    "name": "Sota Labs",
+    "email": "hello@hatang.dev",
+    "url": "https://hatang.dev"
+  },
   "homepage": "https://hatang.dev/docs/guides/getting-started/ai-agents",
   "license": "MIT",
-  "keywords": ["hatang", "email", "vietqr", "payments", "live chat", "customer support", "vietnam", "mcp"]
+  "keywords": [
+    "hatang",
+    "email",
+    "vietqr",
+    "payments",
+    "live chat",
+    "customer support",
+    "vietnam",
+    "mcp"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://hatang.dev/docs/guides/getting-started/ai-agents",
+  "supportUrl": "https://hatang.dev/contact",
+  "privacyPolicyUrl": "https://hatang.dev/legal/privacy",
+  "termsOfServiceUrl": "https://hatang.dev/legal/terms",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Ha Tang API key",
+      "description": "An API key from the Ha Tang dashboard (Settings → API Keys), with only the scopes the agent needs. Leave empty to use the docs tools only.",
+      "sensitive": true
+    },
+    "environment": {
+      "type": "string",
+      "title": "Payments environment",
+      "description": "development: no money moves and test transfers can be simulated. production: real payments.",
+      "options": [
+        "development",
+        "production"
+      ],
+      "default": "development"
+    }
+  }
 }
